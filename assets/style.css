@@ -105,6 +105,15 @@ body {
 	background-color: #BEB45A;
 	border-radius:0 ;
 }
+.active-tag {
+	color: #fff !important;
+	background-color: #BEB45A !important;
+}
+
+.nav-item{
+	cursor: pointer;
+}
+
 .nav-pills .nav-link {
 	color: #000
 }
@@ -112,6 +121,9 @@ body {
 	position: relative;
 	margin-bottom: 0 !important;
 	padding: 0;
+}
+.item-column img{
+	cursor: pointer;
 }
 .item-column::after{
 	content: "";
